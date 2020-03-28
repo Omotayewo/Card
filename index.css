@@ -1,0 +1,57 @@
+.flex-container{
+	display: flex;
+	padding: 0px;
+	height:600px;
+	background-image: url("/storage/emulated/0/CYMERA/MNB.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;
+	position: relative;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	margin: 1px;
+	border: 3px dashed red;
+	animation-name: b;
+	animation-delay: 3s;
+	animation-iteration-count: infinite;
+	animation-duration: 30s;
+	animation-direction: alternate;
+}
+@keyframes b{
+	
+	0% {background-image: url("/storage/emulated/0/CYMERA/MNB.jpg");}
+	30% {background-image: url("/storage/emulated/0/CYMERA/MNB555.jpg");}
+	48% {background-image: url("/storage/emulated/0/CYMERA/MNB33.jpg");}
+	66% {background-image: url("/storage/emulated/0/CYMERA/MNB2222.jpg");}
+	80% {background-image: url("/storage/emulated/0/CYMERA/MNB44.jpg");}
+	100% {background-image: url("/storage/emulated/0/CYMERA/MB1.jpg");}
+}
+.flex-item{
+	border: 3px groove blue;
+	padding: 12px;
+	margin: 90px;
+	flex-grow:12;
+	width: 35%;
+	background-image: url("/storage/emulated/0/CYMERA/anni.jpg");
+	background-position:center;
+	background-size: cover;
+}
+marquee{
+	color: white;
+}
+body{
+	background-color: rgb)126, 180, 240);
+	animation-name: bestie;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-duration: 30s;
+	animation-direction: alternate;
+}
+@keyframes bestie{
+	0% { background-color: rgb(126, 180, 240);}
+	30%{ background-color: rgb(220, 160, 160);}
+	48%{ background-color: rgb(160, 120, 180);}
+	66%{ background-color: rgb(100, 200, 300);}
+	80%{ background-color: rgb(221, 230, 200);}
+	100%{ background-color: rgb(180, 230, 200);}
+}
