@@ -1,3 +1,3 @@
 # Card
 
-https://omotayewo.github.io/Card/
+https://omotayewo.github.io/Card/index.html
